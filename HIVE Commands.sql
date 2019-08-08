@@ -2,6 +2,8 @@
 
 --***DATE Funtions***
 
+set hiveconf:hive.cli.print.current.db=true;  --Displays the current database name on CLI
+
 SELECT UNIX_TIMESTAMP('2017-04-26 00:00:00'); --O/P :  1493145000 (This displays the number of seconds from timestamp)
 
 SELECT FROM_UNIXTIME('1493145000'); --O/P :  2017-04-26 00:00:00 (This displays the timestamp FROM number of seconds, REVERSE of above function)
